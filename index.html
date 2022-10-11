@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/3086f6e9c3.js" crossorigin="anonymous"></script>
+    <title>Video Downloader</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./favicon.png" alt="Not Found" id="youtube" width="50px" height="50px">
+                <span style="margin-top:-20px;">Youtube Video Downloader</span>
+            </div>
+            <ul> 
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li> <a href="#link"> Get link</a></li>
+                <li> <a href="#team"> Our Team</a></li>
+                <li> <a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <img src="https://downloadbytes.com/wp-content/uploads/2019/07/Youtube-downloader.jpg"
+                alt="Picture not Found" height="750px" width="100%">
+            <a href="#link" class="button">Get Started</a>
+        </div>
+
+    </header>
+    <center>
+        <h1 id="about"> <a href="#home"></a>About US</h1>
+    </center>
+    <br><br>
+
+    <article>
+        <div class="gif"><img src="gif.gif" alt="Not Found yet"></div>
+        <p class="peragraph">Our website offers you a great experience of <a style="color: red;"> YouTube video
+                downloading </a> without any technically glitches.we saw that there are a vast amount of sites for <a
+                style="color: red;"> downloading YouTube video</a> but as we know few of them are working in fact some
+            are useless and dangerous because they can steal your data. But our website offers provides you a great
+            interface to download a video.you have to only paste the link of the <a style="color: red;">YouTube
+                video</a> then in a short time time of span your video will be downloaded. And most important thing we
+            always respect your privacy.then why so late let's download your favorite video</p>
+ 
+    </article>
+    <section>
+
+        <center>
+            <h1 id="link"><a href="#home"></a>Get Link</h1>
+        </center>
+    </section>
+
+    <div id="videoContainer">
+        <div>
+            <input id="inputLink" type="text" placeholder="Paste the link here" />
+            <br>
+            <input id="btn" type="button" value="Find" onclick="getData(btn)"></input><br><br>
+            <div id="loader">
+
+        </div>
+        </div>
+        <div class="videoSection">
+            <video id="video" width="700px" height="390px" controls="controls"
+                poster="https://downloadbytes.com/wp-content/uploads/2019/07/Youtube-downloader.jpg">
+                <source id="src" src="" type="video/mp4" />
+
+            </video>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+
+    <center>
+        <h1 id="team"> <a href="#home"></a>Our Team</h1>
+    </center>
+    <br><br><br>
+    <div class="body">
+        <div class="developer" id="dev1">
+            <img src="ansh.png" alt="Avatar" style="width:200px">
+            <br><br>
+            <center>
+                <h2 style="color: red; padding-bottom: 15px;">Ansh Saxena</h2>
+            </center>
+            <div class="sci">
+                <center>
+                    <a href="https://www.facebook.com/moni.saxena.5621"><i class="fa-brands fa-2x fa-facebook"
+                            style="color:red;"></i></a>
+                    <a href="https://www.instagram.com/tenacious_ansh/?hl=en"><i
+                            class="fa-brands fa-2x fa-square-instagram" style="color:red;"></i></a>
+                    <a href="https://www.linkedin.com/in/ansh-saxena-43b8a91ab/"><i class="fa-brands fa-2x fa-linkedin"
+                            style="color:red;"></i></a>
+                </center>
+            </div>
+        </div>
+        <div class="developer" id="dev2">
+            <img src="vansh.png" alt="Avatar" style="width:200px">
+            <br><br>
+            <center>
+                <h2 style="color: red; padding-bottom: 15px;">Vansh Saxena</h2>
+            </center>
+            <div class="sci">
+                <center>
+                    <a href="https://www.facebook.com/vansh.saxena.184007"><i class="fa-brands fa-2x fa-facebook"
+                            style="color:red;"></i></a>
+                    <a href="https://www.instagram.com/vanshsaxena86/?hl=en"><i
+                            class="fa-brands fa-2x fa-square-instagram" style="color:red;"></i></a>
+                    <a href="https://www.linkedin.com/in/vansh-saxena-240709224/"><i class="fa-brands fa-2x fa-linkedin"
+                            style="color:red;"></i></a>
+                </center>
+            </div>
+        </div>
+        <div class="developer" id="dev3">
+            <img src="ankur.png" alt="Avatar" style="width:200px">
+            <br><br>
+            <center>
+                <h2 style="color: red; padding-bottom: 15px;">Ankur Saxena</h2>
+            </center>
+            <div class="sci">
+                <center>
+                    <a href="https://www.facebook.com/ankur.saxena.75685962"><i class="fa-brands fa-2x fa-facebook"
+                            style="color:red;"></i></a>
+                    <a href="https://www.instagram.com/ankur__saxena_____/?hl=en"><i
+                            class="fa-brands fa-2x fa-square-instagram" style="color:red;"></i></a>
+                    <a href="https://www.linkedin.com/in/ankur-saxena3105/"><i class="fa-brands fa-2x fa-linkedin"
+                            style="color:red;"></i></a>
+                </center>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- <center>
+        <h1 id="contact"> <a href="#home"></a>Contact Us</h1>
+    </center> -->
+    <br><br><br>
+    <div class="footer">
+        <div class="col-1">
+
+            <h3>LINKS</h3>
+
+            <a href="#Home">Home </a>
+            <a href="#about">About</a>
+            <a href="#link">Get link</a>
+            <a href="#team">our Team</a>
+            <a href="https://formsubmit.co/el/posida">Contact Us</a>
+
+        </div>
+        <div class="col-2">
+
+            <h3>Social links </h3>
+            <p>Follow us on our social media platforms.</p>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="col-3">
+                <div class="copyright">
+                    <p>Copyright © 2022 youtube music</p>
+                    <p id="ist">All rights reserved</p>
+
+                </div>
+            </div>
+        </div>
+    </div </body>
+
+</html>
