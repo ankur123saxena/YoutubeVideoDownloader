@@ -333,6 +333,11 @@ nav ul li a:hover{
   font-size: xx-small;
   font-style: italic;
 }
+.text{
+    padding:50px;
+    color:red;
+    background-color:black;
+}
 
 
 @media (max-width:480px){
@@ -340,7 +345,7 @@ nav ul li a:hover{
         display:none;
     }
 }
-@media (min-width:481px){
+@media (min-width:481px) and (max-width:2000px){
     .text{
         display:none;
     }
