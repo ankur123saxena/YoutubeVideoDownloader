@@ -4,14 +4,24 @@
   width: 100% important;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: ;
+  /* background-color: whitesmoke; */
 }
 
 #videoContainer {
   text-align: center;
 
 }
-
+.about-us{
+  display: flex;
+  margin: 4%;
+}
+.about-us-img img{
+ width: 100%;
+}
+.about-us .content{
+  width: 100%;
+  line-height: 30px;
+}
 .videoSection {
   margin-top: 2%;
   border: 1px solid rgba(145, 136, 136, 0.353);
@@ -21,6 +31,10 @@
   height: 400px;
   margin-left: 26%;
   background-color: black;
+}
+.videoSection video{
+ width: 700px;
+ height: 390px;
 }
 
 
@@ -60,14 +74,16 @@
 }
 
 nav {
+  width: 100%;
   font-weight: 700;
   height: 80px;
-  background-color: red;
+  background-color: rgba(247, 2, 2, 0.893);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 50px 0px 100px;
   margin-top: 0px;
+ 
 }
 
 nav .logo {
@@ -114,10 +130,11 @@ nav ul li a:hover {
 }
 
 .container .button {
-  margin-top: 55px;
+  margin-top: 20px;
+ 
   position: relative;
-  top: 41%;
   left: 42%;
+  bottom: 20%;
   background-color: red;
   border: none;
   color: white;
@@ -130,6 +147,7 @@ nav ul li a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+  opacity: 0.9;
 
 }
 
@@ -168,7 +186,7 @@ article .peragraph {
   justify-content: center;
   align-items: center;
   padding: 0 0px;
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 22px;
   text-align: center;
 
@@ -279,7 +297,6 @@ section #link {
   padding: 0 25px;
   text-decoration: underline;
   padding-top: 65px;
-  x
 }
 
 .footer {
@@ -348,27 +365,157 @@ section #link {
   font-size: xx-small;
   font-style: italic;
 }
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+.container img{
+  height:600px;
+  width: 100%;
+  
+}
 
 
 
 @media (max-width:480px) {
-  .main-body .logo {
-    overflow: auto;
+  .main-body header nav{
+    display: none;
+  }
+  .container .button {
+    margin-top: 15px;
+    position: relative;
+    padding-top: 20px;
+    left: 25%;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 9px 18px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+  
+  }
+  article .peragraph {
+
+    padding-top: 35px; 
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin-left: 22px;
+    width: 300px;
+  
+  
+  }
+  #inputLink {
+
+    font-size: 12px;
+    margin-left:-6%;
+   margin-bottom: 20px;
+   margin-top: 20px;
+    height: 40px;
+    outline: none;
+    width:80%;
+  }
+  #btn {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 2%;
+    width: 100px;
+    height: 40px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(193, 15, 15);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: -10%;
+  }
+  .about-us{
+    display: block;
+  }
+  .about-us-img img{
+   width: 90%;
+  }
+  .about-us .content{
+   width: 80%;
+   line-height: 30px;
+  }
+  .body{
+    display:block;
+    width: 50%;
+
+    
+    
+  }
+  #dev1{
+    margin-bottom: 50px;
+    margin-left: 25px;
+  }
+  #dev2{
+    margin-bottom: 50px;
+    margin-left: 25px;
+  }
+  #dev3{
+    margin-bottom: 50px;
+    margin-left: 25px;
+  }
+  .videoSection {
+    margin-top: 2%;
+    width: 320px;
+    height: 410px;
+    margin-left: 4%;
+    background-color: black;
+  }
+  .videoSection video{
+    width: 280px;
+    height: 410px;
+   
+  }
+  .footer {
+
+    width: 375px;
+    padding: 30px 10%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
     position: sticky;
   }
-
-  ul {
-    height: 230px;
-    flex-direction: column;
+  
+  .footer div {
     text-align: center;
-    position: fixed;
+  }
+  
+  .footer div h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  
+  
+  }
+  
+  .footer p {
+    font-size: medium;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .container{
+    width: 100vw;
+    height: 50vh;
+  }
+  .container img{
+    height:395px;
     width: 100%;
-    height: 100vh;
-    background: red;
-    top: 80px;
-    left: 0;
-    text-align: center;
-    line-height: 35px;
+    
   }
 
 }
